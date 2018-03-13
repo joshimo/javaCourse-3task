@@ -13,7 +13,7 @@ public class Car {
     private int price;
     private String number;
 
-    public Car(String _mark, String _model, int _year, String _color, int _price, String _number) {
+    Car(String _mark, String _model, int _year, String _color, int _price, String _number) {
         id = lastId++;
         mark = _mark;
         model = _model;
