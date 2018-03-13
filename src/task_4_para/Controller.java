@@ -31,5 +31,5 @@ public interface Controller {
      *          минимальная заданная цена машины
      *  @param  cars
      *          список всех машин */
-    List<Car> getCarsByYear(String year, Integer price, List<Car> cars);
+    List<Car> getCarsByYear(Integer year, Integer price, List<Car> cars);
 }
